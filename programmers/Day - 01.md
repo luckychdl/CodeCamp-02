@@ -1,12 +1,11 @@
-
-
-```js 문자열 정수로 바꾸기
+~~~js
+문자열 정수로 바꾸기
 function solution(s) {
     return Number(s);
 }
-```
-
-```js 핸드폰 번호 가리기
+~~~
+~~~ js
+핸드폰 번호 가리기
 function solution(num) {
     let result = '';
     
@@ -22,9 +21,9 @@ function solution(num) {
     }
     return password + answer;
 }
-```
-
-```js 같은 숫자는 싫어
+~~~
+~~~js
+같은 숫자는 싫어
 function solution(arr) {
     let result = [];
     for (let i = 0; i < arr.length; i ++) {
@@ -35,4 +34,4 @@ function solution(arr) {
     
     return result;
 }
-```
+~~~
