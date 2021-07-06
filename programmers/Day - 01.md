@@ -4,6 +4,7 @@ function solution(s) {
     return Number(s);
 }
 ~~~
+
 ~~~ js
 핸드폰 번호 가리기
 function solution(num) {
@@ -15,13 +16,14 @@ function solution(num) {
     for(let i = 0; i < num.length; i++) {
         if(i < num.length - 4) {
             password += '*';
-        } else {
+        } else {cd
             answer += num[i];
         }
     }
     return password + answer;
 }
 ~~~
+
 ~~~js
 같은 숫자는 싫어
 function solution(arr) {
@@ -33,5 +35,5 @@ function solution(arr) {
     }
     
     return result;
-}
+} 
 ~~~
